@@ -6,8 +6,8 @@ from openai import OpenAI
 # 設定
 # =========================
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
-NEWS_API_KEY = "ここにニュースAPIキー"
-DISCORD_WEBHOOK_URL = "ここにWebhook（任意）"
+NEWS_API_KEY = "3c1265346560455dab50e1b3185182c0"
+DISCORD_WEBHOOK_URL = "https://discord.com/api/webhooks/1496901091458154496/5RXCIo267gaPaGyScCEDsqA2S6xf4-jCtQgDbm-w82uiyRAYx3hiRitblqftCyei0WSo"
 
 if not OPENAI_API_KEY:
     raise ValueError("OpenAI APIキーが設定されていません")
