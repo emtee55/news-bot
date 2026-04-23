@@ -7,10 +7,11 @@ from openai import OpenAI
 import os
 from openai import OpenAI
 
-api_key = os.getenv("OPENAI_API_KEY")
+import os
+from openai import OpenAI
 
-if not api_key:
-    raise ValueError("APIキーが読み込めてない")
+api_key = os.getenv("OPENAI_API_KEY")
+print("KEY:", api_key)
 
 client = OpenAI(api_key=api_key)
 
