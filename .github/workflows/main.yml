@@ -23,3 +23,5 @@ jobs:
 
       - name: 実行
         run: python news.py
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
