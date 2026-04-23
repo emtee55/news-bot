@@ -9,7 +9,7 @@ if not api_key:
 
 client = OpenAI(api_key=api_key)
 
-print("START")
+print("START v2")
 
 # テスト用
 response = client.chat.completions.create(
