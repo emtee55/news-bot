@@ -24,4 +24,7 @@ jobs:
       - name: 実行
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-        run: python news.py
+        run:
+          echo "KEY CHECK:"
+          echo $OPENAI_API_KEY
+          python news.py
